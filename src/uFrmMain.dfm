@@ -180,15 +180,13 @@ object frmMain: TfrmMain
     ScrollBars = ssBoth
     TabOrder = 1
     WordWrap = False
-    ExplicitTop = 295
-    ExplicitHeight = 349
   end
   object ToolBar2: TToolBar
     Left = 0
     Top = 0
     Width = 905
     Height = 26
-    ButtonHeight = 25
+    ButtonHeight = 21
     Caption = 'ToolBar2'
     TabOrder = 2
     object ToolButton6: TToolButton
@@ -203,7 +201,7 @@ object frmMain: TfrmMain
       Left = 8
       Top = 0
       Width = 75
-      Height = 25
+      Height = 21
       Caption = 'go'
       TabOrder = 0
       OnClick = Button1Click
@@ -220,7 +218,7 @@ object frmMain: TfrmMain
       Left = 91
       Top = 0
       Width = 36
-      Height = 25
+      Height = 21
       Caption = #25209#37327#25968
     end
     object ToolButton1: TToolButton
@@ -231,25 +229,25 @@ object frmMain: TfrmMain
       ImageIndex = 3
       Style = tbsSeparator
     end
-    object Edit1: TEdit
+    object edtBatchNum: TEdit
       Left = 135
       Top = 0
       Width = 80
-      Height = 25
+      Height = 21
       TabOrder = 2
       Text = '100'
     end
     object UpDown1: TUpDown
-      Left = 215
+      Left = 231
       Top = 0
       Width = 17
-      Height = 25
-      Associate = Edit1
+      Height = 21
+      Associate = edtBatchNum
       Position = 100
       TabOrder = 1
     end
     object ToolButton2: TToolButton
-      Left = 232
+      Left = 248
       Top = 0
       Width = 8
       Caption = 'ToolButton2'
@@ -257,22 +255,22 @@ object frmMain: TfrmMain
       Style = tbsSeparator
     end
     object Label2: TLabel
-      Left = 240
+      Left = 256
       Top = 0
       Width = 39
-      Height = 25
+      Height = 21
       Caption = #24320#22987#20540' '
     end
-    object Edit2: TEdit
-      Left = 279
+    object edtInitVal: TEdit
+      Left = 295
       Top = 0
       Width = 121
-      Height = 25
+      Height = 21
       TabOrder = 3
       Text = '162803175605706987'
     end
     object ToolButton4: TToolButton
-      Left = 400
+      Left = 416
       Top = 0
       Width = 8
       Caption = 'ToolButton4'
@@ -280,17 +278,17 @@ object frmMain: TfrmMain
       Style = tbsSeparator
     end
     object rbTable: TRadioButton
-      Left = 408
+      Left = 424
       Top = 0
       Width = 73
-      Height = 25
+      Height = 21
       Caption = 'table'
       Checked = True
       TabOrder = 4
       TabStop = True
     end
     object ToolButton5: TToolButton
-      Left = 481
+      Left = 497
       Top = 0
       Width = 8
       Caption = 'ToolButton5'
@@ -298,10 +296,10 @@ object frmMain: TfrmMain
       Style = tbsSeparator
     end
     object rbSql: TRadioButton
-      Left = 489
+      Left = 505
       Top = 0
       Width = 72
-      Height = 25
+      Height = 21
       Caption = 'mysql'
       TabOrder = 5
     end
@@ -315,9 +313,6 @@ object frmMain: TfrmMain
       item
         Width = 100
       end>
-    ExplicitLeft = 512
-    ExplicitTop = 600
-    ExplicitWidth = 0
   end
   object FDGUIxFormsCarBrand: TFDGUIxFormsMemo
     Left = 0
@@ -1014,6 +1009,5 @@ object frmMain: TfrmMain
     ScrollBars = ssBoth
     TabOrder = 4
     WordWrap = False
-    ExplicitTop = 34
   end
 end

@@ -35,12 +35,12 @@ uses SysUtils, classes, uCharSplit;
 class constructor TCarColor.Create;
 begin
   //FMaxId := 67541628411220000;
+  FTableName := 'ap_car_color';
 end;
 
 constructor TCarColor.Create;
 begin
   inherited Create;
-  FTableName := 'ap_car_color';
 end;
 
 destructor TCarColor.Destroy;
