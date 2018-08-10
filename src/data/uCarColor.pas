@@ -83,7 +83,7 @@ begin
       QuotedStr(create_time) + c +
       QuotedStr(modify_time) + c +
       creator_id + c +
-      modifier_id + c;
+      modifier_id;
   end else begin
     Result :=
       IntToStr(car_color_id) + c +
